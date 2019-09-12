@@ -1,14 +1,23 @@
-# APK-Leatherman
-## Android Video uploader
+# Android Video uploader
 
-This is made for a very specific use case though I do intend to grow the project over time into a one stop shop for my company to manage our APK workflow without all the extra functionality side quest provides. This is also a good excuse for me to start my first Python project :D
+### Description
 
+This project is for a bigger Unity project. The tool picks a video, generates the meta data for the video based on parameters
+and generates a thumbnail from the video. Once the data is generated it pushes the files to the connected android devices.
 
-For now the program just uploads a video to a user specified directory on an android device. It also generates meta data based on the title, video description and duration of the video.
+The Unity project looks to the directory this program uploads the content to, so the goal of this is to automate the process of manually adding files
+, taking screenshots and writing titles, descriptions and timestamps multiple times.
 
-## Checklist
+### Dependencies
 
-     Auto generate thumbnails with ffmpeg [ ]
-     Page to side load APKs [  ]
-     Pages to deconstruct APKs using apk tool [  ]
-     Sign APKs [  ]
+- Python 3
+- ADB
+- FFMPEG
+
+### Setup
+
+- Create directories FFMPEG and ADB
+- Drop FFMPEG and ADB binaries into their respective folders
+- Alternatively install ADB and FFMPEG on your system and add them to path.
+- Run the app with ```python3 App.py```
+
