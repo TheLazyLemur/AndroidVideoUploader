@@ -8,6 +8,8 @@ and generates a thumbnail from the video. Once the data is generated it pushes t
 The Unity project looks to the directory this program uploads the content to, so the goal of this is to automate the process of manually adding files
 , taking screenshots and writing titles, descriptions and timestamps multiple times.
 
+##### NB : This only runs on windows as is.
+
 ### Dependencies
 
 - Python 3
@@ -21,3 +23,7 @@ The Unity project looks to the directory this program uploads the content to, so
 - Alternatively install ADB and FFMPEG on your system and add them to path.
 - Run the app with ```python3 App.py```
 
+### Road Map
+
+- Linux Support
+- MacOS Support
